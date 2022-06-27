@@ -823,8 +823,6 @@ img {
 
 .modal-link {
     color: var(--accent-color);
-    text-decoration: underline;
-
 
 }
 
@@ -860,11 +858,13 @@ img {
 
 
 .checkbox {
-
     position: absolute;
     -webkit-appearance: none;
 
 }
+
+
+
 
 .modal-text {
     margin-left: 7px;
@@ -881,6 +881,7 @@ img {
 .modal-input-checkbox:checked+.check-box {
     background-image: url(../Images/check-box/icon\ check.svg);
 }
+
 
 .modal-input-button {
 
@@ -957,6 +958,12 @@ img {
     border-radius: 50%;
     background-color: transparent;
 
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* форма підвал */
