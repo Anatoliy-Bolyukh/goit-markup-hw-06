@@ -798,6 +798,7 @@ img {
 }
 
 .modal-lable {
+    margin-top: 20px;
     padding-left: 14px;
     font-size: 14px;
     line-height: 1.71;
